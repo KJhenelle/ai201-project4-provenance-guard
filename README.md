@@ -121,5 +121,5 @@ SQLite `audit_log` table, append-only; submissions and appeals are separate even
 ## Not done / still to do
 
 - Show the labels to someone who hasn't seen the project and revise if needed.
-- Record the portfolio walkthrough video.
+- Upload the walkthrough video (too large for GitHub) and link it in a Demo section.
 - Stretch features (ensemble, certificate, dashboard, multi-modal) were not attempted.
