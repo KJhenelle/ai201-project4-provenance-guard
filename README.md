@@ -77,7 +77,7 @@ The high-confidence case (0.85 human) and the lower-confidence case (0.63 uncert
 | Uncertain | 0.35 < P(AI) < 0.70 | "Origin unclear. Our automated checks could not tell whether this was written by a person or with AI. No conclusion is being drawn about this work. The creator can request a review." |
 | Under review (after appeal) | status = under_review | "Under review. The creator has contested this label and a person is reviewing it." |
 
-Labels avoid percentages and jargon, hedge the AI verdict, and always point to a human path. I have not yet shown them to an outside reader, as the brief recommends.
+Labels avoid percentages and jargon, hedge the AI verdict, and always point to a human path. I showed the labels to someone who hadn't seen the project, and they understood all of them without explanation, so I kept the wording unchanged. This was a single informal check, not a user study.
 
 ## Appeals
 
@@ -124,5 +124,4 @@ SQLite `audit_log` table, append-only; submissions and appeals are separate even
 
 ## Not done / still to do
 
-- Show the labels to someone who hasn't seen the project and revise if needed.
 - Stretch features (ensemble, certificate, dashboard, multi-modal) were not attempted.
