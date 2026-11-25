@@ -2,6 +2,10 @@
 
 A Flask backend that any creative-sharing platform could plug into. It classifies submitted text as AI-generated, human-written or uncertain, scores its confidence, returns a plain-language transparency label, lets creators appeal, and records every decision in a structured audit log. Design lives in [planning.md](planning.md).
 
+## Demo
+
+Portfolio walkthrough video: [demo.mp4](demo.mp4) (compressed to 960x540 to fit GitHub's file-size limit). It shows a submission, the transparency label, an appeal, rate limiting and the audit log.
+
 ## Run it
 
 ```bash
@@ -121,5 +125,4 @@ SQLite `audit_log` table, append-only; submissions and appeals are separate even
 ## Not done / still to do
 
 - Show the labels to someone who hasn't seen the project and revise if needed.
-- Upload the walkthrough video (too large for GitHub) and link it in a Demo section.
 - Stretch features (ensemble, certificate, dashboard, multi-modal) were not attempted.
